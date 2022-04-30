@@ -58,8 +58,8 @@ local themes = {
 local themeStyles = {
 	DarkTheme = {
 		SchemeColor = Color3.fromRGB(64, 64, 64),
-		Background = Color3.fromRGB(43, 43, 43),
-		Header = Color3.fromRGB(29, 29, 29),
+		Background = Color3.fromRGB(45, 45, 45),
+		Header = Color3.fromRGB(35, 35, 35),
 		TextColor = Color3.fromRGB(255,255,255),
 		ElementColor = Color3.fromRGB(20, 20, 20)
 	},
@@ -265,7 +265,7 @@ function Kavo.CreateLib(kavName, themeList)
 	title.Font = Enum.Font.Gotham
 	title.RichText = true
 	title.Text = kavName
-	title.TextColor3 = Color3.fromRGB(245, 245, 245)
+	title.TextColor3 = Color3.fromRGB(255, 115, 0)
 	title.TextSize = 14.000
 	title.TextXAlignment = Enum.TextXAlignment.Left
 
